@@ -14,7 +14,7 @@ int dy(int pos){
 		return dp[pos] = time[pos];
 	int temp = 0;
 	for(int i=0; i<build[pos].size(); i++){
-		temp = temp > dy(build[pos][i]) + time[pos] ? temp : dp[build[pos][i]] + time[pos] ;
+		temp = temp > dy(build[pos][i]) + time[pos] ? temp : dp[build[pos][i]] + time[pos];
 	}
 	return dp[pos] = temp;
 }
