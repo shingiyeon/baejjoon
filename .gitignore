@@ -3,3 +3,6 @@
 =======
 *.exe
 >>>>>>> 48db8b68bf5c423801e58d103e2b87dd0ee8cd67
+*/mmap_address.bin
+.vscode/ipch/*/*.ipch
+.vscode/ipch/*/mmap_address.bin
