@@ -1,4 +1,8 @@
-*.exe
 input*
 output*
 *.xlsx
+.vscode/c_cpp_properties.json
+*.exe
+*/mmap_address.bin
+.vscode/ipch/*/*.ipch
+.vscode/ipch/*/mmap_address.bin
