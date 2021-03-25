@@ -1,3 +1,9 @@
+//# Author : nuclear852 ========================#
+//# Solution : 11497881 ========================#
+//# Time Stamp : 2019-01-24 00:02:20 ===========#
+//# Problem Title : 요세푸스 문제 0 ==============#
+//# Language : C++98 ===========================#
+
 #include <stdio.h>
 #include <queue>
 using namespace std;

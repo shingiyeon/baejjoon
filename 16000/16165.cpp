@@ -1,3 +1,9 @@
+//# Author : nuclear852 ========================#
+//# Solution : 11741780 ========================#
+//# Time Stamp : 2019-02-12 02:25:47 ===========#
+//# Problem Title : 걸그룹 마스터 준석이 ============#
+//# Language : C++98 ===========================#
+
 #include <stdio.h>
 #include <iostream>
 #include <string>

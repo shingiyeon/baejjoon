@@ -1,3 +1,9 @@
+//# Author : nuclear852 ========================#
+//# Solution : 11704317 ========================#
+//# Time Stamp : 2019-02-09 11:37:46 ===========#
+//# Problem Title : 연구소 ====================#
+//# Language : C++98 ===========================#
+
 #include <stdio.h>
 #include <queue>
 #include <vector>

@@ -1,3 +1,9 @@
+//# Author : nuclear852 ========================#
+//# Solution : 11769554 ========================#
+//# Time Stamp : 2019-02-13 20:09:29 ===========#
+//# Problem Title : Secret Cow Code ========#
+//# Language : C++98 ===========================#
+
 #include <stdio.h>
 typedef long long ll;
 int main(){

@@ -1,3 +1,9 @@
+//# Author : nuclear852 ========================#
+//# Solution : 11529848 ========================#
+//# Time Stamp : 2019-01-26 08:28:18 ===========#
+//# Problem Title : 이항 계수 3 ================#
+//# Language : C++98 ===========================#
+
 #include <stdio.h>
 #define mod 1000000007LL
 typedef long long ll;

@@ -1,8 +1,14 @@
+//# Author : nuclear852 ========================#
+//# Solution : 11940536 ========================#
+//# Time Stamp : 2019-02-26 19:58:16 ===========#
+//# Problem Title : 등산 =====================#
+//# Language : C++98 ===========================#
+
 #include <stdio.h>
 #include <vector>
 #include <queue>
 #include <utility>
-#define MAX 1000000000000000LL
+#define MAX 100000000000LL
 using namespace std;
 
 typedef long long ll;

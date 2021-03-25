@@ -1,3 +1,9 @@
+//# Author : nuclear852 ========================#
+//# Solution : 11599465 ========================#
+//# Time Stamp : 2019-01-30 22:43:23 ===========#
+//# Problem Title : K번째 수 ==================#
+//# Language : C++98 ===========================#
+
 #include <stdio.h>
 #include <algorithm>
 using namespace std;

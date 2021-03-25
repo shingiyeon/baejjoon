@@ -1,3 +1,9 @@
+//# Author : nuclear852 ========================#
+//# Solution : 11982639 ========================#
+//# Time Stamp : 2019-03-02 02:55:42 ===========#
+//# Problem Title : 인구 이동 ==================#
+//# Language : C++98 ===========================#
+
 #include <stdio.h>
 #include <queue>
 #include <vector>
@@ -84,4 +90,3 @@ int main(){
 	}
 	printf("%d", ans);
 }
-

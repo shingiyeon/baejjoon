@@ -1,3 +1,9 @@
+//# Author : nuclear852 ========================#
+//# Solution : 11648614 ========================#
+//# Time Stamp : 2019-02-04 06:34:46 ===========#
+//# Problem Title : 나무 재테크 =================#
+//# Language : C++98 ===========================#
+
 #include <stdio.h>
 #include <utility>
 #include <vector>
@@ -19,8 +25,9 @@ void tree_sort(){
 void spring_and_summer(){
 	for(int i=1; i<=N; i++){
 		for(int j=1; j<=N; j++){
-			int age = 0;
-			for(int k=0; k<tree[i][j].size(); k++){
+			int age = 0; 
+			int range = tree[i][j].size();
+			for(int k=0; k<range; k++){
 				if(tree[i][j][k] <= c_yangboon[i][j]){
 					c_yangboon[i][j] -= tree[i][j][k];
 					tree[i][j][k] += 1;
@@ -123,19 +130,17 @@ int main(){
 		spring_and_summer();
 		/*printf("End of spring_summer\n");
 		print_c_yangboon();
-		print_tree_age();
-		print_tree_number();*/
+		print_tree_age();*/
 		fall();
 		/*printf("End of fall\n");
-		print_tree_age();
-		print_tree_number();*/
+		print_tree_age();*/
 		winter();
-		/*printf("End of winter\n");*/
-		printf("K: %d\n", K);
+		/*printf("End of winter\n");
 		print_c_yangboon();
-		print_tree_age();
-		/*getchar();*/
-		
+		printf("=====================\n====================\n");
+
+		getchar();
+		*/
 	}
 	printf("%d", counting());
 }

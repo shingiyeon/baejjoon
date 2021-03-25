@@ -1,3 +1,9 @@
+//# Author : nuclear852 ========================#
+//# Solution : 11691112 ========================#
+//# Time Stamp : 2019-02-08 10:43:13 ===========#
+//# Problem Title : GCD(n, k) = 1 ==========#
+//# Language : C++98 ===========================#
+
 #include <stdio.h>
 using namespace std;
 

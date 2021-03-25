@@ -1,3 +1,9 @@
+//# Author : nuclear852 ========================#
+//# Solution : 11785606 ========================#
+//# Time Stamp : 2019-02-14 21:01:20 ===========#
+//# Problem Title : 8진수, 10진수, 16진수 ========#
+//# Language : C++98 ===========================#
+
 #include <stdio.h>
 int main(){
 	char s[10]; scanf("%s", s); int sum = 0; int strlen = 0;

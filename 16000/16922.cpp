@@ -1,3 +1,9 @@
+//# Author : nuclear852 ========================#
+//# Solution : 11737076 ========================#
+//# Time Stamp : 2019-02-11 20:09:07 ===========#
+//# Problem Title : 로마 숫자 만들기 ==============#
+//# Language : C++98 ===========================#
+
 #include <stdio.h>
 
 int R[4] = {1, 5, 10, 50};
@@ -11,8 +17,7 @@ int main(){
 			for(int k=0; k<4; k++){
 				if(j>=R[k]){
 					sum = 0;
-					for(int l=0; l<=k; l++)
-						sum |= d[i-1][j-R[k]][l];
+					for(int l=0; l<=k; l++) sum |= d[i-1][j-R[k]][l];
 					d[i][j][k] = sum;
 				}	
 			}
@@ -21,9 +26,7 @@ int main(){
 	sum = 0;
 	for(int i=1; i<=1000; i++){
 		num = 0;
-		for(int k=0; k<4; k++){
-			num |= d[N][i][k];
-		}
+		for(int k=0; k<4; k++) num |= d[N][i][k];
 		sum += num;
 	}
 	printf("%d", sum);	

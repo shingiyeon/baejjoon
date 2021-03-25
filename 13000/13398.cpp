@@ -1,20 +1,33 @@
+//# Author : nuclear852 ========================#
+//# Solution : 22509005 ========================#
+//# Time Stamp : 2020-09-12 23:42:16 ===========#
+//# Problem Title : 연속합 2 ==================#
+//# Language : C++14 ===========================#
+
 #include <stdio.h>
+#include <algorithm>
+typedef long long ll;
+using namespace std;
+int N;
+ll arr[100001];
+ll dy[100001][2];
 
-int dy[100001][2];
-int arr[100001];
-int max(int a, int b){return a > b? a:b;}
-int main(){
-	int MAX = -100000000;
-	int N; scanf("%d", &N);
-	for(int i=0; i<N; i++) scanf("%d", &arr[i]);
-	dy[0][0] = arr[0];
-	dy[0][1] = 0;
-	for(int i=1; i<N; i++){
-		dy[i][0] = max(dy[i-1][0]+arr[i], arr[i]);
-		dy[i][1] = max(dy[i-1][0], dy[i-1][1]+arr[i]);
-		MAX = max(MAX, dy[i][0]);
-		MAX = max(MAX, dy[i][1]);
+int main() {
+	scanf("%d", &N);
+	for(int i=1; i<=N; i++) {
+		scanf("%lld", &arr[i]);
 	}
-	printf("%d", MAX);
-
+	dy[1][0] = arr[1];
+	dy[1][1] = arr[1];
+	
+	for(int i=2; i<=N; i++) {
+		dy[i][0] = max(arr[i], arr[i] + dy[i-1][0]);
+		dy[i][1] = max(dy[i-1][0], dy[i-1][1] + arr[i]);
+	}
+	ll ans = -100000000;
+	for(int i=1; i<=N; i++) {
+		ans = max(ans, dy[i][0]);
+		ans = max(ans, dy[i][1]);
+	}
+	printf("%lld", ans);
 }

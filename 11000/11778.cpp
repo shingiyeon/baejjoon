@@ -1,3 +1,9 @@
+//# Author : nuclear852 ========================#
+//# Solution : 11688830 ========================#
+//# Time Stamp : 2019-02-08 00:15:00 ===========#
+//# Problem Title : 피보나치 수와 최대공약수 ==========#
+//# Language : C++98 ===========================#
+
 #include <stdio.h>
 #include <vector>
 #include <iostream>
@@ -52,4 +58,3 @@ int main(){
 		printf("%lld",b[0][1]);
 	}
 }
-

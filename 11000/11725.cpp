@@ -1,3 +1,9 @@
+//# Author : nuclear852 ========================#
+//# Solution : 11879184 ========================#
+//# Time Stamp : 2019-02-21 18:11:36 ===========#
+//# Problem Title : 트리의 부모 찾기 ==============#
+//# Language : C++98 ===========================#
+
 #include <stdio.h>
 #include <vector>
 #include <queue>
