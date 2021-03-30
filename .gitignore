@@ -1,5 +1,6 @@
 input*
 output*
+*input*
 *.xlsx
 .vscode/c_cpp_properties.json
 *.exe
