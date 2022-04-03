@@ -3,7 +3,7 @@
     "configurations": [
         
         {
-            "name": "(gdb) Launch",
+         "name": "(gdb) Launch",
             "type": "cppdbg",
             "request": "launch",
             "program": "${workspaceFolder}/{fileBasenameNoExtension}",

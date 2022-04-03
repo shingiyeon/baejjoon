@@ -7,3 +7,8 @@ output*
 */mmap_address.bin
 .vscode/ipch/*/*.ipch
 .vscode/ipch/*/mmap_address.bin
+*.in*
+*.out*
+**/*.swp
+**/*.json
+*test*
