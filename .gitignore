@@ -12,3 +12,4 @@ output*
 **/*.swp
 **/*.json
 *test*
+**/tempCodeRunnerFile.cpp
